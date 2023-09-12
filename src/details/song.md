@@ -1408,8 +1408,9 @@ curl -X GET 'https://jiosaavn-api-rs.vercel.app/song/recommend?id=HLulXlir' \
 
 +++
 
-|           **Query Parameter**            |         **Description**          |              **Required**               |
-| :--------------------------------------: | :------------------------------: | :-------------------------------------: |
-|  [!badge variant="contrast" text="id"]   |             Song ID              | [!badge variant="primary" text="True"]  |
-| [!badge variant="contrast" text="camel"] |    `camelCase` response keys     | [!badge variant="primary" text="False"] |
-|  [!badge variant="contrast" text="raw"]  | raw response from `Jiosaavn API` | [!badge variant="primary" text="False"] |
+|          **Query Parameter**          | **Description** |              **Required**              |
+| :-----------------------------------: | :-------------: | :------------------------------------: | --- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| [!badge variant="contrast" text="id"] |     Song ID     | [!badge variant="primary" text="True"] |     | [!badge variant="contrast" text="language"] | one or more comma separated languages</br>`hindi`, `english`, `punjabi`, `tamil`, `telugu`, `marathi`,`gujarati`, `bengali`, `kannada`, `bhojpuri`, `malayalam`, `urdu`, `haryanvi`, `rajasthani`, `odia`, `assamese` | [!badge variant="primary" text="False"] |
+
+| [!badge variant="contrast" text="camel"] | `camelCase` response keys | [!badge variant="primary" text="False"] |
+| [!badge variant="contrast" text="raw"] | raw response from `Jiosaavn API` | [!badge variant="primary" text="False"] |
