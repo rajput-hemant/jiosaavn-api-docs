@@ -1,13 +1,17 @@
-input: .
+input: ./src
 output: ./dist
-url: https://jiosaavn-api.netlify.app
+url: https://docs-jiosaavn.netlify.app
 branding:
   title: JioSaavn API
   label: Docs
 links:
-  - text: API
-    link: https://jiosaavn.shuttleapp.rs
-  - text: Github
+  - text: Demo API (Typescript)
+    link: https://jiosaavn-api-ts.vercel.app
+  - text: Demo API (Rust)
+    link: https://jiosaavn-api-rs.vercel.app
+  - text: Github (Typescript)
+    link: https://github.com/rajput-hemant/jiosaavn-api-ts
+  - text: Github (Rust)
     link: https://github.com/rajput-hemant/jiosaavn-api-rs
   - text: Author
     link: https://github.com/rajput-hemant

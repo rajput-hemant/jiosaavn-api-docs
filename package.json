@@ -1,12 +1,12 @@
 {
-	"name": "jiosaavn-api",
+	"name": "docs-jiosaavn-api",
 	"version": "0.1.0",
-	"description": "An Unofficial Wrapper for JioSaavn API written in Rust programming language 🦀.",
-	"main": "index.js",
+	"description": "Docs for JioSaavn API in TypeScript and Rust programming language 🦀",
 	"scripts": {
 		"dev": "retype start",
 		"build": "retype build",
-		"serve": "retype serve"
+		"serve": "retype serve",
+		"fmt": "prettier --write \"**/*.{md,yml}\" --cache"
 	},
 	"dependencies": {
 		"retypeapp": "^3.1.0"
