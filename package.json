@@ -6,9 +6,16 @@
 		"dev": "retype start",
 		"build": "retype build",
 		"serve": "retype serve",
-		"fmt": "prettier --write \"**/*.{md,yml}\" --cache"
+		"fmt": "prettier --write \"**/*.{md,yml}\" --cache",
+		"prepare": "husky install"
 	},
 	"dependencies": {
 		"retypeapp": "^3.1.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^17.7.1",
+		"@commitlint/config-conventional": "^17.7.0",
+		"husky": "^8.0.3",
+		"lint-staged": "^14.0.1"
 	}
 }
