@@ -13,10 +13,10 @@
 		"retypeapp": "^3.5.0"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^19.4.0",
-		"@commitlint/config-conventional": "^19.2.2",
+		"@commitlint/cli": "^19.4.1",
+		"@commitlint/config-conventional": "^19.4.1",
 		"husky": "^9.1.5",
-		"lint-staged": "^15.2.9",
+		"lint-staged": "^15.2.10",
 		"prettier": "^3.3.3"
 	}
 }
