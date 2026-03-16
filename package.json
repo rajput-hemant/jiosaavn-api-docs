@@ -10,13 +10,13 @@
 		"prepare": "husky install"
 	},
 	"dependencies": {
-		"retypeapp": "^4.1.0"
+		"retypeapp": "^4.2.0"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^20.4.3",
-		"@commitlint/config-conventional": "^20.4.3",
+		"@commitlint/cli": "^20.5.0",
+		"@commitlint/config-conventional": "^20.5.0",
 		"husky": "^9.1.7",
-		"lint-staged": "^16.3.2",
+		"lint-staged": "^16.4.0",
 		"prettier": "^3.8.1"
 	}
 }
