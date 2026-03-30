@@ -10,7 +10,7 @@
 		"prepare": "husky install"
 	},
 	"dependencies": {
-		"retypeapp": "^4.3.0"
+		"retypeapp": "^4.4.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^20.5.0",
